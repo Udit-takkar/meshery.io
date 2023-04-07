@@ -5,9 +5,10 @@ type: Troubleshooting
 compatibility:
     - Linkerd
 patternId: MESHERY005
-image: /images/patterns/service-mesh.svg
+image: /assets/images/patterns/service-mesh.svg
 patternInfo: "[Coming Soon]"
 patternCaveats: "[Coming Soon]"
+Status: ComingSoon
 URL: ""
 downloadLink: 
 ---

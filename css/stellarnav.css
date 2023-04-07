@@ -61,8 +61,8 @@ body.stellarnav-noscroll-x { overflow-x: hidden; }
 /* svg icons */
 
 .stellarnav a.dd-toggle .icon-plus { box-sizing: border-box; transition: transform 0.3s; width: 12px; height: 100%; position: relative; vertical-align: middle; display: inline-block; }
-.stellarnav a.dd-toggle .icon-plus:before { content: ''; display: block; width: 12px; height: 0px; border-bottom: solid 3px #777; position: absolute; top: 50%; transform: rotate(90deg); transition: width 0.3s; }
-.stellarnav a.dd-toggle .icon-plus:after { content: ''; display: block; width: 12px; height: 0px; top: 50%; border-bottom: solid 3px #777; position: absolute; }
+.stellarnav a.dd-toggle .icon-plus:before { content: ''; display: block; width: 12px; height: 0px; border-bottom: solid 3px #8f8f8f; position: absolute; top: 50%; transform: rotate(90deg); transition: width 0.3s; }
+.stellarnav a.dd-toggle .icon-plus:after { content: ''; display: block; width: 12px; height: 0px; top: 50%; border-bottom: solid 3px #8f8f8f; position: absolute; }
 .stellarnav li.open > a.dd-toggle .icon-plus { -webkit-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
 .stellarnav.light a.dd-toggle .icon-plus:before { border-color: #000; }
 .stellarnav.light a.dd-toggle .icon-plus:after { border-color: #000; }
@@ -79,7 +79,7 @@ body.stellarnav-noscroll-x { overflow-x: hidden; }
 
 /* mobile nav */
 .stellarnav .menu-toggle, .stellarnav .call-btn-mobile, .stellarnav .location-btn-mobile, .stellarnav .close-menu { padding: 15px; box-sizing: border-box; }
-.stellarnav .menu-toggle span.bars { display: inline-block; margin-right: 7px; position: relative; top: 5px; }
+.stellarnav .menu-toggle span.bars { display: inline-block;  margin-right: 7px; margin-top: auto; padding: 8px; }
 .stellarnav .menu-toggle span.bars span { display: block; width: 15px; height: 2px; border-radius: 6px; background: #FFF; margin: 0 0 3px; }
 .stellarnav .full { width: 100%; }
 .stellarnav .half { width: 50%; }
@@ -116,7 +116,7 @@ body.stellarnav-noscroll-x { overflow-x: hidden; }
 .stellarnav.mobile.light > ul { border-top: 1px solid rgba(0, 0, 0, .15); }
 .stellarnav.mobile li a.dd-toggle { border: 0; }
 .stellarnav.mobile.light li a.dd-toggle { border: 0; }
-.stellarnav.mobile .menu-toggle, .stellarnav.mobile .dd-toggle, .stellarnav.mobile .close-menu, .stellarnav.mobile .call-btn-mobile, .stellarnav.mobile .location-btn-mobile { display: flex;}
+.stellarnav.mobile .menu-toggle, .stellarnav.mobile .dd-toggle, .stellarnav.mobile .close-menu, .stellarnav.mobile .call-btn-mobile, .stellarnav.mobile .location-btn-mobile { display: flex; align-items:center;justify-content:center }
 .stellarnav.mobile li.call-btn-mobile { border-right: 1px solid rgba(255, 255, 255, .1); box-sizing: border-box; }
 .stellarnav.mobile li.call-btn-mobile, .stellarnav.mobile li.location-btn-mobile { display: inline-block; width: 50%; text-transform: uppercase; text-align: center; }
 .stellarnav.mobile li.call-btn-mobile.full, .stellarnav.mobile li.location-btn-mobile.full { display: block; width: 100%; text-transform: uppercase; border-right: 0; text-align: left; }

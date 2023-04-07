@@ -2,9 +2,9 @@
   <p style="text-align:center;" align="center">
 <a href="https://layer5.io/meshery">
 <picture align="center">
-<source media="(prefers-color-scheme: dark)" srcset="./images/logos/meshery-logo-dark-text-side.svg" width="70%" align="center" style="margin-bottom:20px;">
-<source media="(prefers-color-scheme: light)" srcset="./images/logos/meshery-logo-light-text-side.svg" width="70%" align="center" style="margin-bottom:20px;">
-<img alt="Shows an illustrated light mode meshery logo in light color mode and a dark mode meshery logo dark color mode." src="./images/logos/meshery-logo-light-text-side-new.svg" width="70%" align="center" style="margin-bottom:20px;"> </picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/images/logos/meshery-logo-dark-text-side.svg" width="70%" align="center" style="margin-bottom:20px;">
+<source media="(prefers-color-scheme: light)" srcset="./assets/images/logos/meshery-logo-light-text-side.svg" width="70%" align="center" style="margin-bottom:20px;">
+<img alt="Shows an illustrated light mode meshery logo in light color mode and a dark mode meshery logo dark color mode." src="./assets/images/logos/meshery-logo-light-text-side-new.svg" width="70%" align="center" style="margin-bottom:20px;"> </picture>
 </a>
 
 <br/><br/></p>
@@ -15,7 +15,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/layer5/meshery.svg)](https://hub.docker.com/r/layer5/meshery-io)
 [![Go Report Card](https://goreportcard.com/badge/github.com/layer5io/meshery)](https://goreportcard.com/report/github.com/layer5io/meshery)
-[![Build Status](https://github.com/layer5io/meshery/workflows/Meshery/badge.svg)](https://github.com/layer5io/meshery/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/meshery/meshery/build-and-release-edge.yml?branch=master)](https://github.com/meshery/meshery.io/actions/workflows/pages/pages-build-deployment)
 [![GitHub](https://img.shields.io/github/license/layer5io/meshery.svg)](LICENSE)
 [![GitHub issues by-label](https://img.shields.io/github/issues/layer5io/meshery/help%20wanted.svg)](https://github.com/layer5io/meshery/issues?q=is%3Aopen+is%3Aissue+label%3A"help+wanted")
 [![Website](https://img.shields.io/website/https/layer5.io/meshery.svg)](https://layer5.io/meshery/)
@@ -42,10 +42,10 @@ For further information, refer to the [Meshery Docs](https://docs.meshery.io).
 ## Join the Meshery community!
 
 <a name="contributing"></a><a name="community"></a>
-Our projects are community-built and welcome collaboration. 👍 Be sure to see the <a href="https://docs.google.com/document/d/17OPtDE_rdnPQxmk2Kauhm3GwXF1R5dZ3Cj8qZLKdo5E/edit">Community Welcome Guide</a> for a tour of resources available to you and jump into our <a href="https://slack.meshery.io">Slack</a>!
+Our projects are community-built and welcome collaboration. 👍 Be sure to see the <a href="https://layer5.io/community/newcomers/">Newcomers' Guide</a> for a tour of resources available to you and jump into our <a href="https://slack.meshery.io">Slack</a> to engage!
 
 <p style="clear:both;">
-<a href ="https://layer5.io/community"><img alt="MeshMates" src="images/logos/Layer5-MeshMentors.png" style="margin-right:10px; margin-bottom:7px;" width="28%" align="left" /></a>
+<a href ="https://layer5.io/community"><img alt="MeshMates" src="assets/imageslogos/Layer5-MeshMentors.png" style="margin-right:10px; margin-bottom:7px;" width="28%" align="left" /></a>
 <h3>Find your MeshMate</h3>
 
 <p>MeshMates are experienced Layer5 community members, who will help you learn your way around, discover live projects and expand your community network. 
@@ -58,9 +58,9 @@ Find out more about the <a href="https://layer5.io/community#meshmate">Layer5 co
 <a href="https://slack.meshery.io">
 
 <picture align="right">
-  <source media="(prefers-color-scheme: dark)" srcset="./images/logos/slack-dark-128.png"  width="110px" align="right" style="margin-left:10px;margin-top:10px;">
-  <source media="(prefers-color-scheme: light)" srcset="./images/logos/slack-128.png" width="110px" align="right" style="margin-left:10px;padding-top:5px;">
-  <img alt="Shows an illustrated light mode meshery logo in light color mode and a dark mode meshery logo dark color mode." src="./images/logos/slack-128.png" width="110px" align="right" style="margin-left:10px;padding-top:13px;">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/images/logos/slack-dark-128.png"  width="110px" align="right" style="margin-left:10px;margin-top:10px;">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/images/logos/slack-128.png" width="110px" align="right" style="margin-left:10px;padding-top:5px;">
+  <img alt="Shows an illustrated light mode meshery logo in light color mode and a dark mode meshery logo dark color mode." src="./assets/images/logos/slack-128.png" width="110px" align="right" style="margin-left:10px;padding-top:13px;">
 </picture>
 </a>
 
